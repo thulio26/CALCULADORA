@@ -1,0 +1,52 @@
+  body {
+
+    background-image: url(./hacker.jpg); 
+    
+    background-position: top center;
+    
+    background-size: cover;
+
+   }
+         .calculadora{
+          background-color: rgba(145, 142, 142, 0.315);
+          position: absolute;
+           left: 43%;
+           top: 56%;
+           transform: translate(-50, -50%);
+           padding: 10px;
+         }
+          .linha{
+          display: flex;
+          gap: 5px;
+          margin: 5px;
+         }
+  
+         button{
+         width: 23%;
+         height: 50;
+         border-radius: 30%;
+         border: none;
+         font-size: 25px;
+         cursor: pointer;
+         }
+         #zero{
+          width: 120px;
+         }
+  
+         #igual{
+          width: 120px;
+         }
+  
+         .tela{
+          width: 260px;
+          height: 40px;
+          background-color: white;
+          overflow: hidden;
+         }
+         .esp{
+          background-color: aqua;
+         }
+      p{
+        font-size: 35px;
+        text-align: right;
+      }
